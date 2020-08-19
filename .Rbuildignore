@@ -1,0 +1,15 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^codecov\.yml$
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.travis\.yml$
+cran-comments.md
+
+^README\.Rmd$
+^README-.*\.png$
+^papers
+^CRAN-RELEASE$
+release_notes.md
+^images
+^results
