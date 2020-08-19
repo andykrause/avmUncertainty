@@ -3,7 +3,7 @@
 FROM rocker/r-ver:3.6.0
 
 # Maintainer Signature
-LABEL maintainer="anonymousREauthor"
+LABEL maintainer="andykrause"
 
 # Linux setup (non-R libraries)
 RUN export DEBIAN_FRONTEND=noninteractive; apt-get -y update \
@@ -67,7 +67,7 @@ COPY docker/avmUncertainty_0.1.1.tar.gz /packages/avmUncertainty.tar.gz
 
 RUN R -e "install.packages('/packages/avmUncertainty.tar.gz', repos = NULL, type = 'source')"
 
-RUN R -e "remotes::install_github('anonymousreauthor/kingCoData')"
+RUN R -e "remotes::install_github('andykrause/kingCoData')"
 
 # Copy data, scripts and configs
 COPY /scripts/sandbox.R /code/test.R

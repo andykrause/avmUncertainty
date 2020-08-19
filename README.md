@@ -16,11 +16,11 @@ Begin by installing the following two packages from github
 
 * avmUncertainty
 
-`devtools::install_github('anonymousreauthor/avmUncertainty')`
+`devtools::install_github('andykrause/avmUncertainty')`
 
 * kingCoData
 
-`devtools::install_github('anonymousreauthor/kingCoData')`
+`devtools::install_github('andykrause/kingCoData')`
 
 &nbsp; 
 
@@ -48,7 +48,7 @@ Open this project in RStudio. Note that you can reproduce without the RStudio ID
 
 2. Next, summarize the results with the **2_summarize_results.R** script.  You may want to restart R and this project after #1 or fix your working directories to match.  
 
-&nbsp; 
+&nbsp;
 
 3. Then, run (or knit) **3_create_tables_figures.rmd** to generate the tables and figures in the paper. 
 
@@ -68,7 +68,7 @@ Additionally, there is a Dockerfile in the /docker directory that will allow you
 
 &nbsp; 
 
-Log an issue at www.github.com/anonymousreauthor/avmUncertainty.
+Log an issue at www.github.com/andykrause/avmUncertainty.
 
 
 

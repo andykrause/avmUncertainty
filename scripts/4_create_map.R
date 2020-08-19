@@ -9,7 +9,7 @@
 ### Setup ------------------------------------------------------------------------------------------
 
   # Load Libraries
-  library(kingCoData) #devtools::install_github('anonymousREAuthor/kingCoData')
+  library(kingCoData) #devtools::install_github('andykrause/kingCoData')
   library(hpiR)
   library(tidyverse)
   library(sf)

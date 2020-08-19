@@ -9,10 +9,10 @@
 ### Setup ------------------------------------------------------------------------------------------
 
   # Load Libraries
-  library(kingCoData) #devtools::install_github('anonymousREAuthor/kingCoData')
+  library(kingCoData) #devtools::install_github('andykrause/kingCoData')
   library(hpiR)
   library(tidyverse)
-  library(avmUncertainty) #devtools::install_github('anonymousREAuthor/avmUncertainty')
+  library(avmUncertainty) #devtools::install_github('andykrause/avmUncertainty')
 
   # Create directory for results if it doesn't exist
   dir.create(file.path(getwd(), 'results'))
